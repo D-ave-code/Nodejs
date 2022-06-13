@@ -10,6 +10,7 @@ app.use(express.static(__dirname + '/public'))
 
 io.on('connection', (socket) =>{
     console.log("Nueva Conexion : ", socket.id)
+   
 } )
 
 server.listen(3000);
